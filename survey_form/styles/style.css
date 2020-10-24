@@ -1,1 +1,6 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+#survey {
+  padding: 1rem;
+  border-width: 10px;
+  border-color: red;
+}
+/*# sourceMappingURL=style.css.map */
