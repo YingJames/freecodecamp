@@ -3,4 +3,8 @@
   border-width: 10px;
   border-color: red;
 }
+
+body::before {
+  background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+}
 /*# sourceMappingURL=style.css.map */
