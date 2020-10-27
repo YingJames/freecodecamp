@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
 body {
   background-image: linear-gradient(72deg, rgba(67, 62, 150, 0.8) 0%, rgba(16, 176, 209, 0.8) 100%), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+}
+
+html {
+  font-family: 'Poppins';
 }
 
 #survey-form {
