@@ -4,15 +4,31 @@ body {
 }
 
 html {
-  font-family: 'Poppins';
+  font-family: 'Poppins', serif;
+  color: white;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 2;
 }
 
 #survey-form {
   padding: 1rem;
   border: 3px solid red;
+  max-width: 85vw;
+  margin: 0 auto;
 }
 
 #subtitle {
   font-style: italic;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
