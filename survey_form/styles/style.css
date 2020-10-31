@@ -1,6 +1,44 @@
-#survey {
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+html {
+  font-family: 'Poppins', serif;
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  background-image: linear-gradient(72deg, rgba(67, 62, 150, 0.8) 0%, rgba(16, 176, 209, 0.8) 100%), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+header {
+  text-align: center;
+}
+
+#survey-form {
   padding: 1rem;
-  border-width: 10px;
-  border-color: black;
+  border: 3px solid red;
+  max-width: 85vw;
+  margin: auto;
+}
+
+#subtitle {
+  font-style: italic;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  padding-top: 15px;
+}
+
+input {
+  display: inline-block;
+  font-style: 'Poppins', serif;
+  height: 1.5rem;
+  width: 85vw;
 }
 /*# sourceMappingURL=style.css.map */
