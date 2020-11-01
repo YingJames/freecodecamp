@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+@media (min-width: 576px) {
+  #nav--right {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #nav--right {
+    font-size: 1rem;
+  }
+}
+
 #nav-bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,12 +29,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: right;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: right;
   width: 60%;
+  font-size: 1rem;
+  white-space: nowrap;
 }
 /*# sourceMappingURL=style.css.map */
