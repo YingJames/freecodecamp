@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
 #nav-bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,6 +13,7 @@
 }
 
 #nav--right {
+  font-family: 'Poppins', serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
