@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
 @media (min-width: 320px) {
   #nav--right {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+  }
+  #title {
+    font-size: 5rem;
   }
 }
 
@@ -29,6 +32,10 @@
   }
 }
 
+html {
+  font-family: 'Poppins', serif;
+}
+
 #nav-bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,7 +50,7 @@
 }
 
 #nav--right {
-  font-family: 'Poppins', serif;
+  font-family: 'SF Mono', serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,5 +62,9 @@
   text-align: right;
   width: 60%;
   white-space: nowrap;
+}
+
+#title {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
