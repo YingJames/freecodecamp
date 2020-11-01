@@ -10,8 +10,12 @@
 #nav--right {
   font-family: 'Poppins', serif;
   display: flex;
-  text-align: right;
   justify-content: space-around;
   align-items: center;
+  text-align: right;
   width: 60%;
+
+  // normal font size
+  font-size: 1rem;
+  white-space: nowrap;
 }
