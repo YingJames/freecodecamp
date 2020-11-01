@@ -1,5 +1,9 @@
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  #nav--right {
+    font-size: 0.6rem;
+  }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {}
@@ -8,4 +12,8 @@
 @media (min-width: 992px) {}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  #nav--right {
+    font-size: 1rem;
+  }
+}
