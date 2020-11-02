@@ -26,8 +26,21 @@ html {
   white-space: nowrap;
 }
 
+#cover {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 auto;
+  width: 500px;
+  white-space: nowrap;
+}
+
 #title {
   margin: 0 1rem;
+}
+
+#protein {
+  width: 60%;
 }
 
 #icon {
