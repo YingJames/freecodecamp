@@ -59,6 +59,10 @@ html {
 }
 
 #title {
-  margin: 0;
+  margin: 0 1rem;
+}
+
+#icon {
+  font-size: 5rem;
 }
 /*# sourceMappingURL=style.css.map */
