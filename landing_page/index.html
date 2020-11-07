@@ -19,12 +19,13 @@
         <a href="#pricing" class="nav-link">Pricing</a>
       </div>
     </nav>
-    
-    <div id="cover">
-      <h1 id="title"> Meet Alloy</h1>
-      <img id="protein" src="images/protein.png" alt="protein">
-    </div>
   </header>
+
+  <div id="top-buffer"></div>
+  <div id="cover">
+    <h1 id="title"> Meet Alloy</h1>
+    <img id="protein" src="images/protein.png" alt="protein">
+  </div>
 
   <main>
     <div id="pricing">
@@ -32,26 +33,31 @@
       <p>At Just $12.99</p>
     </div>
 
-    <iframe class="video" width="1885" height="812" src="https://www.youtube.com/embed/y-Jatfh2FAM" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id="video" width="1885" height="812" src="https://www.youtube.com/embed/y-Jatfh2FAM" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <h2 id="features">Reach New Heights with Alloy</h2>
-    <span style="font-size:3rem;"><i class="fas fa-shield-alt"></i></span>
-    <span style="font-size:3rem;"><i class="fas fa-feather"></i></span>
-    <span style="font-size:3rem;"><i class="fas fa-dumbbell"></i></span>
+    <div id="features">
+      <h2 id="features">Reach New Heights with Alloy</h2>
+      <span style="font-size:3rem;"><i class="fas fa-shield-alt"></i></span>
+      <span style="font-size:3rem;"><i class="fas fa-feather"></i></span>
+      <span style="font-size:3rem;"><i class="fas fa-dumbbell"></i></span>
+    </div>
   </main>
 
 
-  <form id="form">
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
     <h2>Contact Us</h2>
-    <label for="contact">Company Email:
-      <input type="email" name="contact" placeholder="Email" >
-    </label>
+      <input 
+      name="email" 
+      id="email" 
+      type="email" 
+      placeholder="Enter Email" 
+      required>
 
-    <div>
-      <button type="submit">Submit</button>
-    </div>
+      <!-- Button for Email -->
+      <input id="submit" type="submit" value="Get Started" class="btn">
   </form>
 
   <script src="https://kit.fontawesome.com/cf6b863084.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
