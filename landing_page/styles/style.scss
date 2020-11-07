@@ -2,6 +2,18 @@
 
 @import 'screen-sizes.scss';
 
+@mixin flexSection($height) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: $height;
+
+  margin: 0;
+
+  h2 {font-size: 3rem;}
+  p {font-size: 2rem;}
+}
+
 html {
   font-family: 'Poppins', serif;
 }
@@ -9,7 +21,10 @@ html {
 #nav-bar {
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
 }
+
 #header-img {
   height: 100px;
 }
@@ -17,13 +32,15 @@ html {
 #nav--right {
   font-family: 'SF Mono', serif;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  text-align: right;
-  width: 60%;
+  justify-content: space-around;
+  width: 50%;
 
-  // normal font size
   white-space: nowrap;
+}
+
+#top-buffer {
+  @include flexSection(20vh);
 }
 
 #cover {
@@ -36,13 +53,29 @@ html {
 }
 
 #title {
-  margin: 0 1rem;
+  margin: 0;
+  text-align: center;
 }
 
 #protein {
   width: 60%;
+  margin: 0 auto;
+}
+
+#pricing {
+  @include flexSection(40vh);
+  display: flex;
+  flex-direction: column;
+}
+
+#features {
+  @include flexSection(40vh);
 }
 
 #icon {
   font-size: 5rem;
+}
+
+#form {
+  @include flexSection(40vh);
 }

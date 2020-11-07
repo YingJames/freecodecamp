@@ -37,6 +37,8 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: fixed;
+  width: 100%;
 }
 
 #header-img {
@@ -48,14 +50,35 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: right;
-  width: 60%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
   white-space: nowrap;
+}
+
+#top-buffer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20vh;
+  margin: 0;
+}
+
+#top-buffer h2 {
+  font-size: 3rem;
+}
+
+#top-buffer p {
+  font-size: 2rem;
 }
 
 #cover {
@@ -74,14 +97,87 @@ html {
 }
 
 #title {
-  margin: 0 1rem;
+  margin: 0;
+  text-align: center;
 }
 
 #protein {
   width: 60%;
+  margin: 0 auto;
+}
+
+#pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40vh;
+  margin: 0;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#pricing h2 {
+  font-size: 3rem;
+}
+
+#pricing p {
+  font-size: 2rem;
+}
+
+#features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40vh;
+  margin: 0;
+}
+
+#features h2 {
+  font-size: 3rem;
+}
+
+#features p {
+  font-size: 2rem;
 }
 
 #icon {
   font-size: 5rem;
+}
+
+#form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40vh;
+  margin: 0;
+}
+
+#form h2 {
+  font-size: 3rem;
+}
+
+#form p {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
