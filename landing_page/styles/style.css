@@ -70,7 +70,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   height: 20vh;
-  margin: 0;
+  margin: 0 auto;
 }
 
 #top-buffer h2 {
@@ -117,7 +117,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   height: 40vh;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -133,6 +133,29 @@ html {
   font-size: 2rem;
 }
 
+#video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#video h2 {
+  font-size: 3rem;
+}
+
+#video p {
+  font-size: 2rem;
+}
+
 #features {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,7 +167,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   height: 40vh;
-  margin: 0;
+  margin: 0 auto;
 }
 
 #features h2 {
@@ -170,7 +193,11 @@ html {
       -ms-flex-align: center;
           align-items: center;
   height: 40vh;
-  margin: 0;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #form h2 {
