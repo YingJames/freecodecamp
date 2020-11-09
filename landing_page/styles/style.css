@@ -133,7 +133,7 @@ html {
   font-size: 2rem;
 }
 
-#video {
+#ad {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -145,15 +145,18 @@ html {
           align-items: center;
   height: 80vh;
   margin: 0 auto;
-  width: 70%;
 }
 
-#video h2 {
+#ad h2 {
   font-size: 3rem;
 }
 
-#video p {
+#ad p {
   font-size: 2rem;
+}
+
+#video {
+  width: 60%;
 }
 
 #features {
@@ -166,8 +169,12 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 40vh;
+  height: 50vh;
   margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #features h2 {
@@ -176,6 +183,10 @@ html {
 
 #features p {
   font-size: 2rem;
+}
+
+#features ul {
+  list-style-type: none;
 }
 
 #icon {
@@ -192,7 +203,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 40vh;
+  height: 50vh;
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -206,5 +217,9 @@ html {
 
 #form p {
   font-size: 2rem;
+}
+
+#form input {
+  margin: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
