@@ -69,11 +69,11 @@ html {
 }
 
 #ad {
-  @include flexSection(80vh);
+  @include flexSection(100vh);
 }
 
 #video {
-  width: 60%;
+  width: 80%;
 }
 
 #features {
