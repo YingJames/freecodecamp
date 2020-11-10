@@ -2,16 +2,13 @@
 
 @import 'screen-sizes.scss';
 
-@mixin flexSection($height) {
+@mixin flexSection() {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: $height;
-
-  margin: 0 auto;
+  height: auto;
 
   h2 {font-size: 3rem;}
-  p {font-size: 2rem;}
 }
 
 html {
@@ -39,8 +36,10 @@ html {
   white-space: nowrap;
 }
 
+// The top-buffer adds space to the top of the website to keep the navigation bar from overlapping with the hero
 #top-buffer {
-  @include flexSection(20vh);
+  @include flexSection();
+  height: 20vh;
 }
 
 #cover {
@@ -63,21 +62,22 @@ html {
 }
 
 #pricing {
-  @include flexSection(40vh);
+  @include flexSection();
   display: flex;
   flex-direction: column;
 }
 
 #ad {
-  @include flexSection(100vh);
+  @include flexSection();
 }
 
 #video {
+  margin: 2rem;
   width: 80%;
 }
 
 #features {
-  @include flexSection(50vh);
+  @include flexSection();
   flex-direction: column;
   ul {
     list-style-type: none;
@@ -89,13 +89,10 @@ html {
 }
 
 #form {
-  @include flexSection(50vh);
+  @include flexSection();
   flex-direction: column;
 
   input {
     margin: 1rem;
   }
-}
-
-#btn {
 }
