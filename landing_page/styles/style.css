@@ -1,28 +1,31 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
 @media (min-width: 320px) {
-  #nav--right {
-    font-size: 0.8rem;
-  }
-  #title {
-    font-size: 5rem;
+  #html {
+    font-size: 60%;
   }
 }
 
 @media (min-width: 576px) {
-  #nav--right {
-    font-size: 0.8rem;
+  html {
+    font-size: 80%;
   }
 }
 
 @media (min-width: 768px) {
-  #nav--right {
-    font-size: 1rem;
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 90%;
   }
 }
 
 @media (min-width: 1200px) {
-  #nav--right {
-    font-size: 1.3rem;
+  html {
+    font-size: 100%;
   }
 }
 
@@ -69,34 +72,42 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 20vh;
+  height: auto;
+  width: 100vh;
   margin: 0 auto;
+  height: 20vh;
 }
 
 #top-buffer h2 {
   font-size: 3rem;
 }
 
-#top-buffer p {
-  font-size: 2rem;
-}
-
-#cover {
+#hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: 100vh;
+  margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  margin: 0 auto;
-  width: 500px;
   white-space: nowrap;
 }
 
+#hero h2 {
+  font-size: 3rem;
+}
+
 #title {
+  font-size: 3rem;
   margin: 0;
   text-align: center;
 }
@@ -116,7 +127,8 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 40vh;
+  height: auto;
+  width: 100vh;
   margin: 0 auto;
   display: flex;
   -webkit-box-orient: vertical;
@@ -129,10 +141,6 @@ html {
   font-size: 3rem;
 }
 
-#pricing p {
-  font-size: 2rem;
-}
-
 #ad {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -143,7 +151,8 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: auto;
+  width: 100vh;
   margin: 0 auto;
 }
 
@@ -151,11 +160,8 @@ html {
   font-size: 3rem;
 }
 
-#ad p {
-  font-size: 2rem;
-}
-
 #video {
+  margin: 2rem;
   width: 80%;
 }
 
@@ -169,8 +175,10 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 50vh;
+  height: auto;
+  width: 100vh;
   margin: 0 auto;
+  text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -179,10 +187,6 @@ html {
 
 #features h2 {
   font-size: 3rem;
-}
-
-#features p {
-  font-size: 2rem;
 }
 
 #features ul {
@@ -203,7 +207,8 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 50vh;
+  height: auto;
+  width: 100vh;
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -213,10 +218,6 @@ html {
 
 #form h2 {
   font-size: 3rem;
-}
-
-#form p {
-  font-size: 2rem;
 }
 
 #form input {
