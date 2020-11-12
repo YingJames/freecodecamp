@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+code {
+  background-color: #cccccc;
+  padding: 0.7rem 1rem;
+  margin: 0.5rem;
+}
+/*# sourceMappingURL=style.css.map */
