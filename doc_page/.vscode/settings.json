@@ -1,0 +1,8 @@
+{
+  "key": "ctrl+shift+9",
+  "command": "editor.emmet.action.wrapWithAbbreviation",
+  "when": "editorHasSelection",
+  "args": {
+      "abbreviation": "span"
+  }
+}
