@@ -9,17 +9,27 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
+  #main-doc {
+    max-width: 95%;
+  }
+  code {
+    font-size: 13px;
+  }
 }
 
 @media (min-width: 768px) {
   #main-doc {
-    padding-left: 305px;
+    padding-left: 310px;
+    max-width: 60%;
   }
   #navbar {
     position: fixed;
     z-index: 1;
     height: 100%;
     width: 300px;
+  }
+  code {
+    font-size: 15px;
   }
 }
 
@@ -45,7 +55,6 @@ html {
 #main-doc {
   position: absolute;
   overflow-x: hidden;
-  max-width: 70%;
 }
 
 .main-section header {
@@ -59,7 +68,6 @@ code {
   color: #666;
   page-break-inside: avoid;
   font-family: 'Roboto Mono', monospace;
-  font-size: 15px;
   line-height: 1.6;
   margin-bottom: 1.6em;
   max-width: 100%;
