@@ -2,10 +2,21 @@
 // @description media queries for all important sizes
 // Small devices (landscape phones, 576px and up)
 
-//@media (min-width: 576px) 
+@media (max-width: 767px) 
+  #navbar
+    width: 100%
+    flex-direction: column
+    justify-content: center
 
 //// Medium devices (tablets, 768px and up)
-//@media (min-width: 768px)
+@media (min-width: 768px)
+  #main-doc
+    padding-left: 305px
+  #navbar
+    position: fixed
+    z-index: 1
+    height: 100%
+    width: 300px
 
 //// Large devices (desktops, 992px and up)
 //@media (min-width: 992px)
